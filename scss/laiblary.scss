@@ -1,0 +1,61 @@
+
+
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --light-gray:#c9c6c1;
+    --icon-color:#b8b3af;
+  }
+ 
+
+
+
+      .font-size{
+        font-size: 1rem;
+      }
+
+      .size-font{
+          font-size: 2.5rem;
+
+          @media (max-width:820px) {
+               font-size: 1.5rem;
+          }
+      }
+  
+
+
+// @media (max-width:740px) {
+//        .responsive-width{
+//              width: 85%;
+//        }
+
+//        .like-img-main{
+//            width: 100%;
+//        }
+//        .responsive-width-para{
+//           width: 85%;
+//        }
+// }
+
+
+// .icon{
+//   width: 100%;
+//   text-align: right;
+//   padding: 30px 0;
+
+
+//   a{  font-size: 1.5rem;
+//       text-decoration: none;
+//       color:var(--light-gray);
+//       padding-right: 10px;
+//       gap: 10px;
+//   }
+// }
+
+// .fa:hover{
+//   color: #616161;
+//   transition: .5s;
+// }
+
+

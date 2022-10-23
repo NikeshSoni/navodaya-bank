@@ -1,0 +1,44 @@
+
+
+    
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        // font-size: 62.5%;
+    }
+
+    .main-wapper   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px auto;
+        width: 30%;
+        background-color: #f7f7f7;
+        padding: 20px;
+        border-radius: 20px;
+
+
+        .main-logo{
+            width: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        @media (max-width:850px) {
+             width: 50%;
+           .comman-font{  
+            font-size: 1.5rem !important;
+
+           }
+        }
+
+
+        @media (max-width:500px) {
+            .comman-font{
+                     font-size: 1rem !important;
+
+            }
+       }
+     }
